@@ -2,5 +2,6 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 function generate() {
+    for (let i = 0; i < characters.length; i++)
     
 }
