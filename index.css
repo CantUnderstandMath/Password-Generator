@@ -1,3 +1,13 @@
 body {
     margin: 0;
 }
+
+button {
+    height: 40px;
+    width: 170px;
+    background: mediumspringgreen;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+}
