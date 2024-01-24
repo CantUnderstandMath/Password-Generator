@@ -2,12 +2,53 @@ body {
     margin: 0;
 }
 
+#box {
+    border: white 2px;
+    border-radius: 3%;
+    background: #1d2a38;
+    height: 300px;
+    width: 300px;
+    padding-left: 10px;
+    margin-left: 100px;
+    position: relative;
+    text-align: left;
+}
+
+#header {
+    padding-top: 30px;
+    text-align: left;
+}
+
+h1 {
+    color: white;
+    font-size: x-large;
+    margin-bottom: -6px;
+    
+}
+
+h2 {
+    margin-top: 5px;
+    color: #49e084;
+    font-size: x-large;
+}
+
 button {
     height: 40px;
     width: 170px;
-    background: mediumspringgreen;
+    background: #0fba80;
     color: white;
     border: none;
     border-radius: 5%;
     text-align: center;
+}
+
+#password-el {
+    color: #49e084;
+    background: #263548;
+    width: 150px;
+    height: 35px;
+    border-radius: 5%;
+    text-align: center;
+    position: absolute;
+    line-height: 35px;
 }
