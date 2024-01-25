@@ -64,3 +64,10 @@ button {
     position: absolute;
     line-height: 35px;
 }
+
+#password-length {
+    color: #49e084;
+    background: #263548;
+    border: none;
+    margin-top: 10px;   
+}
