@@ -42,6 +42,16 @@ button {
     text-align: center;
 }
 
+#button2 {
+    height: 40px;
+    width: 170px;
+    background: #0fba80;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+}
+
 #password-el {
     color: #49e084;
     background: #263548;

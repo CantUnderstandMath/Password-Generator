@@ -4,6 +4,32 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let passwordEl = document.getElementById("password-el")
 let passEl = document.getElementById("pass-el")
 
+function addCopyFunctionality() {
+    const passwordEl = document.getElementById("password-el");
+
+    passwordEl.addEventListener("click", function() {
+        const password = passwordEl.textContent;
+        navigator.clipboard.writeText(password).then(function() {
+            passwordEl.textContent = "Copied!";
+        });
+    });
+}
+
+function addCopyFunctionality2() {
+    const passEl = document.getElementById("pass-el");
+
+    passEl.addEventListener("click", function() {
+        const password = passEl.textContent;
+        navigator.clipboard.writeText(password).then(function() {
+            passEl.textContent = "Copied!";
+        });
+    });
+}
+
+window.addEventListener("load", function() {
+    addCopyFunctionality();
+});
+
 // return random character (Math.random)
 function randomCharacter() {
     let randomIndex = Math.floor(Math.random() * characters.length)
